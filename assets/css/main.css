@@ -1,15 +1,4 @@
-/**
-* Template Name: Kelly
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -846,49 +835,13 @@ section,
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(102, 126, 234, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(52, 183, 167, 0.05) 0%, transparent 70%);
     animation: float 20s ease-in-out infinite;
 }
 
 @keyframes float {
     0%, 100% { transform: translateY(0px) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(180deg); }
-}
-
-.skills .section-title {
-    text-align: center;
-    margin-bottom: 60px;
-    position: relative;
-    z-index: 2;
-}
-
-.skills .section-title h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #2c3e50;
-    margin-bottom: 15px;
-    position: relative;
-    display: inline-block;
-}
-
-.skills .section-title h2::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
-    border-radius: 2px;
-}
-
-.skills .section-title p {
-    font-size: 1.1rem;
-    color: #6c757d;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.6;
 }
 
 .skills-container {
@@ -910,7 +863,7 @@ section,
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    border: 1px solid rgba(102, 126, 234, 0.1);
+    border: 1px solid rgba(52, 183, 167, 0.1);
 }
 
 .skill-category::before {
@@ -920,7 +873,7 @@ section,
     left: 0;
     right: 0;
     height: 5px;
-    background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+    background: linear-gradient(90deg, #34b7a7, #2aa396, #1e8b7a);
     border-radius: 20px 20px 0 0;
 }
 
@@ -947,7 +900,7 @@ section,
     transform: translateX(-50%);
     width: 40px;
     height: 2px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #34b7a7, #2aa396);
     border-radius: 1px;
 }
 
@@ -978,8 +931,8 @@ section,
 .skill-percentage {
     font-size: 1rem;
     font-weight: 700;
-    color: #667eea;
-    background: rgba(102, 126, 234, 0.1);
+    color: #34b7a7;
+    background: rgba(52, 183, 167, 0.1);
     padding: 4px 10px;
     border-radius: 15px;
     font-size: 0.9rem;
@@ -998,11 +951,11 @@ section,
 .skill-progress {
     height: 100%;
     width: 0%;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #34b7a7, #2aa396);
     border-radius: 10px;
     position: relative;
     transition: width 2s ease-in-out;
-    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 2px 8px rgba(52, 183, 167, 0.3);
 }
 
 .skill-progress::after {
@@ -1023,12 +976,12 @@ section,
 
 /* Hover effects for skill items */
 .skill-item:hover .skill-name {
-    color: #667eea;
+    color: #34b7a7;
     transition: color 0.3s ease;
 }
 
 .skill-item:hover .skill-progress {
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px rgba(52, 183, 167, 0.4);
     transform: scaleY(1.1);
     transition: all 0.3s ease;
 }
